@@ -1,0 +1,44 @@
+[
+  {
+    "doc_id": "D001",
+    "title": "Chest Pain Emergency Guidance",
+    "department": "Emergency",
+    "keywords": ["chest pain", "sweating", "dizziness", "shortness of breath", "arm pain"],
+    "text": "Chest pain with sweating, dizziness, shortness of breath, or pain radiating to the arm may indicate a cardiac emergency and requires urgent clinical assessment."
+  },
+  {
+    "doc_id": "D002",
+    "title": "Respiratory Distress Guidance",
+    "department": "Pulmonology",
+    "keywords": ["blue lips", "low oxygen", "rapid breathing", "confusion", "shortness of breath"],
+    "text": "Blue lips, low oxygen saturation, rapid breathing, confusion, and severe shortness of breath may indicate respiratory distress and require urgent escalation."
+  },
+  {
+    "doc_id": "D003",
+    "title": "Routine Assessment Guidance",
+    "department": "General Medicine",
+    "keywords": ["no chest pain", "mild cough", "normal breathing"],
+    "text": "Patients who report no chest pain, no breathlessness, normal activity, and mild cough may be suitable for routine outpatient assessment if no red flags are present."
+  },
+  {
+    "doc_id": "D004",
+    "title": "Oral Lesion Referral Guidance",
+    "department": "ENT",
+    "keywords": ["mouth pain", "mouth sores", "white patches", "red patches", "lumps"],
+    "text": "Persistent mouth pain, non-healing mouth sores, white or red patches, or lumps in the mouth should be referred for oral medicine or ENT evaluation."
+  },
+  {
+    "doc_id": "D005",
+    "title": "Anxiety-Related Symptoms",
+    "department": "Psychiatry",
+    "keywords": ["anxiety", "chest tightness", "palpitations", "tingling"],
+    "text": "Anxiety can present with chest tightness, palpitations, tingling, and rapid breathing, but cardiac and respiratory red flags should be ruled out first."
+  },
+  {
+    "doc_id": "D006",
+    "title": "Pediatric Fever Red Flags",
+    "department": "Pediatrics",
+    "keywords": ["child", "fever", "poor feeding", "lethargy", "persistent crying"],
+    "text": "Children with fever, poor feeding, lethargy, persistent crying, breathing difficulty, or blue discoloration require urgent pediatric assessment."
+  }
+]

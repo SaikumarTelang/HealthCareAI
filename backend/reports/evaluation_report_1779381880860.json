@@ -1,0 +1,72 @@
+[
+  {
+    "version": "v1",
+    "case_id": "T1",
+    "input": "mild cough, no fever, normal breathing",
+    "expected": "Low",
+    "predicted": "High",
+    "pass": false,
+    "reasoning": "Detected symptoms matching pulmonology, general-medicine."
+  },
+  {
+    "version": "v1",
+    "case_id": "T2",
+    "input": "fever and breathlessness",
+    "expected": "High",
+    "predicted": "High",
+    "pass": true
+  },
+  {
+    "version": "v1",
+    "case_id": "T3",
+    "input": "chest pain, sweating, dizziness",
+    "expected": "Critical",
+    "predicted": "Critical",
+    "pass": true
+  },
+  {
+    "version": "v1",
+    "case_id": "T4",
+    "input": "I have had chest pressure for 3 hours. I feel sweaty and lightheaded.",
+    "expected": "Critical",
+    "predicted": "High",
+    "pass": false,
+    "reasoning": "Detected symptoms matching cardiology."
+  },
+  {
+    "version": "v2",
+    "case_id": "T1",
+    "input": "mild cough, no fever, normal breathing",
+    "expected": "Low",
+    "predicted": "High",
+    "pass": false,
+    "reasoning": "Detected symptoms matching pulmonology, general-medicine."
+  },
+  {
+    "version": "v2",
+    "case_id": "T2",
+    "input": "fever and breathlessness",
+    "expected": "High",
+    "predicted": "Medium",
+    "pass": false,
+    "reasoning": "Detected symptoms matching general-medicine."
+  },
+  {
+    "version": "v2",
+    "case_id": "T3",
+    "input": "chest pain, sweating, dizziness",
+    "expected": "Critical",
+    "predicted": "High",
+    "pass": false,
+    "reasoning": "Detected symptoms matching cardiology."
+  },
+  {
+    "version": "v2",
+    "case_id": "T4",
+    "input": "I have had chest pressure for 3 hours. I feel sweaty and lightheaded.",
+    "expected": "Critical",
+    "predicted": "High",
+    "pass": false,
+    "reasoning": "Detected symptoms matching cardiology."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "version": "v1",
+    "case_id": "T1",
+    "input": "mild cough, no fever, normal breathing",
+    "expected": "Low",
+    "predicted": "Critical",
+    "pass": false,
+    "reasoning": "Potential life-threatening symptoms detected."
+  },
+  {
+    "version": "v1",
+    "case_id": "T2",
+    "input": "fever and breathlessness",
+    "expected": "High",
+    "predicted": "Medium",
+    "pass": false,
+    "reasoning": "Clinical evaluation required."
+  },
+  {
+    "version": "v1",
+    "case_id": "T3",
+    "input": "chest pain, sweating, dizziness",
+    "expected": "Critical",
+    "predicted": "Critical",
+    "pass": true,
+    "reasoning": "Potential life-threatening symptoms detected."
+  },
+  {
+    "version": "v1",
+    "case_id": "T4",
+    "input": "I have had chest pressure for 3 hours. I feel sweaty and lightheaded.",
+    "expected": "Critical",
+    "predicted": "Medium",
+    "pass": false,
+    "reasoning": "Clinical evaluation required."
+  },
+  {
+    "version": "v2",
+    "case_id": "T1",
+    "input": "mild cough, no fever, normal breathing",
+    "expected": "Low",
+    "predicted": "Critical",
+    "pass": false,
+    "reasoning": "Potential life-threatening symptoms detected."
+  },
+  {
+    "version": "v2",
+    "case_id": "T2",
+    "input": "fever and breathlessness",
+    "expected": "High",
+    "predicted": "Medium",
+    "pass": false,
+    "reasoning": "Clinical evaluation required."
+  },
+  {
+    "version": "v2",
+    "case_id": "T3",
+    "input": "chest pain, sweating, dizziness",
+    "expected": "Critical",
+    "predicted": "Critical",
+    "pass": true,
+    "reasoning": "Potential life-threatening symptoms detected."
+  },
+  {
+    "version": "v2",
+    "case_id": "T4",
+    "input": "I have had chest pressure for 3 hours. I feel sweaty and lightheaded.",
+    "expected": "Critical",
+    "predicted": "Medium",
+    "pass": false,
+    "reasoning": "Clinical evaluation required."
+  }
+]

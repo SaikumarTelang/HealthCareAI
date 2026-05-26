@@ -1,0 +1,9 @@
+version,case_id,expected,predicted,pass
+v1,T1,Low,High,false
+v1,T2,High,High,true
+v1,T3,Critical,High,false
+v1,T4,Critical,High,false
+v2,T1,Low,High,false
+v2,T2,High,Medium,false
+v2,T3,Critical,High,false
+v2,T4,Critical,High,false
